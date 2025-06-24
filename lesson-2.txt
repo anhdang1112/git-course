@@ -1,0 +1,26 @@
+Bài tập 1:
+
+1. git init
+=> Dùng để khởi tạo 1 repository
+
+2. git add <file name>
+=> Dùng để add 1 file từ vùng Working Directory vào vùng Staging
+
+3. git add .
+=> Dùng để add all file từ vùng Working Directory vào vùng staging
+
+4. git commit -m"message"
+=> Dùng để viết commit message cho 1 commit
+
+
+Bài tập 2:
+a. Tạo 3 file: file1, file2, file3 => Cả 3 files đang ở vùng Working Directory
+b. git init
+c. git commit -m"init project"
+d. git add file1
+e. git commit -m"add file1"
+f. git add file
+
+file1: Staging
+file2, file3: Working Directory
+file: k tồn tại vì chưa tạo, lệnh git add ở step f sẽ bị fail do không tìm thấy file
